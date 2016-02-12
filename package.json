@@ -1,0 +1,24 @@
+{
+  "name": "keylock",
+  "version": "1.0.0",
+  "description": "Keylock – some kind of neural network!",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bower": "^1.7.7",
+    "chalk": "^1.1.1",
+    "coa": "^1.0.1",
+    "inherit": "^2.2.3",
+    "inquirer": "^0.11.4",
+    "keypress": "^0.2.1",
+    "lodash": "^4.2.1",
+    "q": "^1.4.1",
+    "q-io": "^1.13.2",
+    "shelljs": "^0.6.0",
+    "term-cursor": "^1.0.2"
+  }
+}

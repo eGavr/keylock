@@ -1,0 +1,6 @@
+{
+  "name": "keylock",
+  "dependencies": {
+    "Chart.js": "^2.0.0"
+  }
+}
