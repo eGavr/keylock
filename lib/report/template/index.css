@@ -1,0 +1,11 @@
+canvas {
+    -webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, .5);
+}
+
+.chart {
+    display: inline-block;
+    margin-left: -4px;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 10px;
+}
