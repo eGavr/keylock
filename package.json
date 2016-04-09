@@ -4,9 +4,12 @@
   "description": "Keylock – some kind of neural network!",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "clean": "echo {} > data/database.json && rm -rf reports/",
+    "deps": "bower install --config.interactive=false",
+    "test": "npm run unit",
+    "unit": "mocha test"
   },
-  "author": "",
+  "author": "Eugene Gavryushin <job.egavr@yandex.ru>",
   "license": "ISC",
   "dependencies": {
     "bower": "^1.7.7",
@@ -22,8 +25,8 @@
     "shelljs": "^0.6.0",
     "term-cursor": "^1.0.2"
   },
-  "scripts": {
-    "deps": "bower install --config.interactive=false",
-    "clean": "echo {} > data/database.json && rm -rf charts/*"
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
   }
 }
